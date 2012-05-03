@@ -400,7 +400,8 @@ SCTable.TableView = SC.View.extend(SCTable.TableColumnsDelegate, SCTable.TableDe
     this.beginPropertyChanges();
 
     if (this._headerScrollView) {
-      this._headerScrollView.adjust({ right: this._bodyScrollView.get('frame').width - this._bodyScrollView.getPath('containerView.frame').width });
+      // Removing This as it looks better (JR)
+      //this._headerScrollView.adjust({ right: this._bodyScrollView.get('frame').width - this._bodyScrollView.getPath('containerView.frame').width });
     }
 
     if (this._headerView) {

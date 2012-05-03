@@ -15,7 +15,8 @@
  
 /* Table Header */
 
-.sctable-header-scroll-view {
+.sctable-header-scroll-view,
+div.sctable-header-view.collection {
   background-color: #e7e7e7;
 }
 
